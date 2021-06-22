@@ -1,1 +1,20 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+div.Home > div.landing-section {
+  padding: 4em;
+  background: linear-gradient(93.41deg, #000080 -6.82%, rgba(0, 0, 128, 0.55) 103.64%);
+}
+
+div.Home > div.landing-section > div.content {
+  width: 600px;
+}
+
+div.Home > div.landing-section > div.content > h2.headline {
+  color: white;
+  font-size: 36px;
+}
+
+div.Home > div.landing-section > div.content > p.description {
+  margin-top: 1.2em;
+  color: white;
+  text-align: justify;
+}
+/*# sourceMappingURL=style.css.map */

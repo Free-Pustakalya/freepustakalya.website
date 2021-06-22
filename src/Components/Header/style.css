@@ -1,1 +1,39 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+div.Header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-right: 2em;
+  padding-left: 2em;
+  background-color: #F4F4F4;
+}
+
+div.Header > div.header-logo-container > img.logo {
+  width: 60px;
+}
+
+div.Header > div.header-options-container {
+  margin-left: auto;
+}
+
+div.Header > div.header-options-container > ul.header-option-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  list-style: none;
+}
+
+div.Header > div.header-options-container > ul.header-option-list > li.header-list {
+  margin-left: 1.2em;
+}
+
+div.Header > div.header-options-container > ul.header-option-list > li.header-list:hover {
+  color: gray;
+  cursor: pointer;
+}
+/*# sourceMappingURL=style.css.map */

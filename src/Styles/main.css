@@ -1,1 +1,33 @@
-/* No CSS *//*# sourceMappingURL=main.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  line-height: 1.3;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.center-content {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1400px;
+}
+
+button.solid-button-yellow {
+  background-color: #FFCC00;
+  padding: 0.8em;
+  border: none;
+  width: 140px;
+  font-family: inherit;
+  font-weight: inherit;
+  font-size: 16px;
+  border-radius: 6px;
+}
+
+button.solid-button-yellow:hover {
+  -webkit-filter: brightness(90%);
+          filter: brightness(90%);
+}
+/*# sourceMappingURL=main.css.map */
