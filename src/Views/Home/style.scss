@@ -21,4 +21,66 @@ div.Home {
     }
   }
 
+  > div.organizations-gist-container {
+
+    display: flex;
+    align-items: center;
+
+    > div.organizations-list {
+      margin-left: auto;
+      display: flex;
+      align-items: center;
+
+      > img.org-logo {
+        width: 115px;
+        margin-left: 3em;
+        height: 100%;
+      }
+    }
+
+  }
+
+}
+
+@media screen and (max-width: 1000px) {
+  div.Home {
+    > div.landing-section {
+      > div.content {
+        width: 100%;
+
+        > h2.headline {
+          text-align: center;
+        }
+
+        p.description {
+          text-align: center;
+        }
+
+        > button {
+          display: block;
+          margin-right: auto;
+          margin-left: auto;
+        }
+      }
+    }
+
+    > div.organizations-gist-container {
+      display: grid;
+      text-align: center;
+      > div.organizations-list {
+        display: grid;
+        margin-left: 0 !important;
+
+        > img.org-logo {
+          margin-right: auto;
+          margin-left: auto;
+          background-color: black;
+          width: 200px;
+          height: 100%;
+        }
+      }
+
+    }
+
+  }
 }

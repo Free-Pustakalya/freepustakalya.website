@@ -1,6 +1,7 @@
 
 import "./style.css";
 import React from "react";
+import FPLogo from "../../Assets/FPLogo.jpeg";
 
 function Home() {
   return (
@@ -22,6 +23,19 @@ function Home() {
           >
             Learn More
           </button>
+        </div>
+      </div>
+
+      {/* Major Organizations Section */}
+      <div className="organizations-gist-container center-content">
+        <h4>
+          Organizations we have partnered with
+        </h4>
+        <div className="organizations-list">
+          <img src={FPLogo} alt="logo" className="org-logo" />
+          <img src={FPLogo} alt="logo" className="org-logo" />
+          <img src={FPLogo} alt="logo" className="org-logo" />
+          <img src={FPLogo} alt="logo" className="org-logo" />
         </div>
       </div>
 

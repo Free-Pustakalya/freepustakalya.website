@@ -17,4 +17,63 @@ div.Home > div.landing-section > div.content > p.description {
   color: white;
   text-align: justify;
 }
+
+div.Home > div.organizations-gist-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+div.Home > div.organizations-gist-container > div.organizations-list {
+  margin-left: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+div.Home > div.organizations-gist-container > div.organizations-list > img.org-logo {
+  width: 115px;
+  margin-left: 3em;
+  height: 100%;
+}
+
+@media screen and (max-width: 1000px) {
+  div.Home > div.landing-section > div.content {
+    width: 100%;
+  }
+  div.Home > div.landing-section > div.content > h2.headline {
+    text-align: center;
+  }
+  div.Home > div.landing-section > div.content p.description {
+    text-align: center;
+  }
+  div.Home > div.landing-section > div.content > button {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  div.Home > div.organizations-gist-container {
+    display: -ms-grid;
+    display: grid;
+    text-align: center;
+  }
+  div.Home > div.organizations-gist-container > div.organizations-list {
+    display: -ms-grid;
+    display: grid;
+    margin-left: 0 !important;
+  }
+  div.Home > div.organizations-gist-container > div.organizations-list > img.org-logo {
+    margin-right: auto;
+    margin-left: auto;
+    background-color: black;
+    width: 200px;
+    height: 100%;
+  }
+}
 /*# sourceMappingURL=style.css.map */
