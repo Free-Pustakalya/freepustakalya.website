@@ -1,0 +1,28 @@
+
+div.NewsCard {
+  margin-top: 1.2em;
+  width: 450px;
+  overflow: hidden;
+  border-radius: 8px;
+  box-shadow: 2px 4px 16px rgba(0, 0, 0, 0.225);
+
+  > img.news-banner {
+    width: 100%;
+  }
+
+  > div.NewsCard-Body {
+    padding: 1em;
+
+    > h2.NewsTitle {
+      font-size: 20px;
+    }
+
+    > p.NewsContent {
+      margin-top: 0.8em;
+      margin-bottom: 1.2em;
+      color: gray;
+      font-size: 16px;
+    }
+
+  }
+}

@@ -1,6 +1,8 @@
 
 // importing external font sheets, libraries and stuff
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url(./variables/variables.css);
+
 
 * {
   margin: 0;
@@ -9,27 +11,42 @@
 }
 
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
-.center-content {
-  margin-right: auto;
-  margin-left: auto;
-  max-width: 1400px;
-}
+.sub-landing-section {
+  padding: 6em;
+  text-align: center;
+  background-color: var(--color-blue);
 
-button.solid-button-yellow {
-  background-color: #FFCC00;
-  padding: 0.8em;
-  border: none;
-  width: 140px;
-  font-family: inherit;
-  font-weight: inherit;
-  font-size: 16px;
-  border-radius: 6px;
-
-  &:hover {
-    filter: brightness(90%);
+  > h1.headline {
+    font-size: 64px;
+    color: white;
   }
 }
 
+button.solid-button {
+  
+  &-yellow {
+    background-color: var(--color-yellow);
+    padding: 0.6em;
+    border: none;
+    border-radius: 4px;
+    color: black;
+    font-size: inherit;
+    font-weight: inherit;
+    font-family: inherit;
+  }
+
+  &-blue {
+    background-color: var(--color-blue);
+    padding: 0.6em;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-size: inherit;
+    font-weight: inherit;
+    font-family: inherit;
+  }
+
+}

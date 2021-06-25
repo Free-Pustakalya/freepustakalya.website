@@ -2,12 +2,12 @@
 import "./style.css";
 import React from "react";
 
-function Home() {
+function Blogs() {
   return (
-    <div className="Home">
-      
+    <div className="Blogs">
+
     </div>
   )
 }
 
-export default Home;
+export default Blogs;
