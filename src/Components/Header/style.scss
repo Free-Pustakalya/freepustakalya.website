@@ -1,40 +1,32 @@
 
 div.Header {
+  padding-top: 1.2em;
+  padding-bottom: 1.2em;
+  overflow: hidden;
   display: flex;
   align-items: center;
-  padding-top: 0.64em;
-  padding-bottom: 0.64em;
-  padding-right: 2em;
-  padding-left: 2em;
-  margin-right: auto;
-  margin-left: auto;
-  max-width: 1400px;
-  background-color: #ffffff;
+}
 
-    > div.header-logo-container {
+span.logo-container {
+
+}
+
+span.header-options-container {
+  margin-left: auto;
+
+  > ul.header-options-list {
+    display: flex;
+    align-items: center;
+    list-style: none;
+
+    > li.header-option {
+      margin-left: 1.2em;
+      color: rgba($color: (#ffffff), $alpha: 0.650);
+      cursor: pointer;
       
-      > img.logo {
-        width: 60px;
+      &:hover {
+        color: white;
       }
     }
-  
-    > div.header-options-container {
-      margin-left: auto;
-  
-      > ul.header-option-list {
-        display: flex;
-        align-items: center;
-        list-style: none;
-
-        > li.header-list {
-          margin-left: 1.2em;
-
-          &:hover {
-            color: gray;
-            cursor: pointer;
-          }
-        }
-
-      }
   }
 }

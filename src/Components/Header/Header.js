@@ -1,80 +1,47 @@
+import React from 'react';
+import { HashRouter } from 'react-router-dom';
+import './style.css';
 
-import "./style.css";
-import React from "react";
-// import FPLogo from "../../Assets/FPLogo.jpeg";       WILL BE IMPORTED LATER
-import { HashRouter } from "react-router-dom";
-import { Link } from "react-router-dom";
-
-function Header() {
-  return (
-    <div className="Header">
-      <HashRouter basename="/">
-        <div className="header-logo-container">
-          {/* <img src={FPLogo} alt="logo" className="logo" /> */}
-        </div>
-        <div className="header-options-container">
-          <ul className="header-option-list">
-            <li className="header-list">
-              <Link to="/" style={{
-                textDecoration: 'none',
-                color: 'inherit'
-              }}> 
+export default class Header extends React.Component {
+  render() {
+    return (
+      <div className="Header page-center">
+        <HashRouter basename="/">
+          <span className="logo-container">
+            {/* logo image will be here */}
+          </span>
+          <span className="header-options-container">
+            <ul className="header-options-list">
+              <li className="header-option">
                 Home
-              </Link>
-            </li>
-            <li className="header-list">
-              <Link to="/about-us" style={{
-                textDecoration: 'none',
-                color: 'inherit'
-              }}>
+              </li>
+              <li className="header-option">
                 About Us
-              </Link>
-            </li>
-            <li className="header-list">
-              <Link to="/events" style={{
-                textDecoration: 'none',
-                color: 'inherit'
-              }}>
+              </li>
+              <li className="header-option">
                 Events
-              </Link>
-            </li>
-            <li className="header-list">
-              <Link to="/programs" style={{
-                textDecoration: 'none',
-                color: 'inherit'
-              }}>
+              </li>
+              <li className="header-option">
                 Programs
-              </Link>
-            </li>
-            <li className="header-list">
-              <Link to="engage" style={{
-                textDecoration: 'none',
-                color: 'inherit'
-              }}>
+              </li>
+              <li className="header-option">
                 Engage
-              </Link>
-            </li>
-            <li className="header-list">
-              <Link to="contact-us" style={{
-                textDecoration: 'none',
-                color: 'inherit'
-              }}>
+              </li>
+              <li className="header-option">
                 Contact Us
-              </Link>
-            </li>
-            <li className="header-list">
-              <Link to="blogs" style={{
-                textDecoration: 'none',
-                color: 'inherit'
-              }}>
+              </li>
+              <li className="header-option">
                 Blogs
-              </Link>
-            </li>
-          </ul>
-        </div>
-      </HashRouter>
-    </div>
-  )
+              </li>
+              <li className="header-option">
+                <button className="primary-button">
+                  Donate Now
+                </button>
+              </li>
+            </ul>
+          </span>
+        </HashRouter>
+      </div>
+    )
+  }
 }
-
-export default Header;

@@ -1,0 +1,27 @@
+div.EventCard {
+  width: 340px;
+  overflow: hidden;
+  border-radius: 6px;
+  border: 0.6px solid white;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 1.4em;
+}
+
+div.EventCard > img {
+  width: 100%;
+  border: 0.6px solid white;
+}
+
+div.EventCard > div.CardBody {
+  padding: 0.8em;
+}
+
+div.EventCard > div.CardBody > h3 {
+  color: white;
+}
+
+div.EventCard > div.CardBody > p {
+  color: white;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,1 +1,37 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+div.Home > div.landing-container {
+  margin-top: 10em;
+  margin-bottom: 14em;
+}
+
+div.Home > div.content-section {
+  background-color: white;
+  padding: 4.8em;
+}
+
+div.Home > div.content-section > div.content-container > div.content-about-us-container {
+  margin-top: 12em;
+}
+
+div.Home > div.content-section > div.content-container > div.content-about-us-container > h2 {
+  font-size: 32px;
+  text-align: center;
+}
+
+div.Home > div.content-section > div.content-container > div.content-about-us-container > p {
+  margin-top: 2.4em;
+  text-align: center;
+  width: 800px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+div.Home > div.recent-events-section > div.recent-events-content {
+  margin-top: 4em;
+}
+
+div.Home > div.recent-events-section > div.recent-events-content > h2.headline {
+  width: 400px;
+  font-size: 32px;
+  color: white;
+}
+/*# sourceMappingURL=style.css.map */

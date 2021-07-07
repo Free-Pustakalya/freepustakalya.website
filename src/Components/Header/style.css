@@ -1,29 +1,20 @@
 div.Header {
+  padding-top: 1.2em;
+  padding-bottom: 1.2em;
+  overflow: hidden;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding-top: 0.64em;
-  padding-bottom: 0.64em;
-  padding-right: 2em;
-  padding-left: 2em;
-  margin-right: auto;
-  margin-left: auto;
-  max-width: 1400px;
-  background-color: #ffffff;
 }
 
-div.Header > div.header-logo-container > img.logo {
-  width: 60px;
-}
-
-div.Header > div.header-options-container {
+span.header-options-container {
   margin-left: auto;
 }
 
-div.Header > div.header-options-container > ul.header-option-list {
+span.header-options-container > ul.header-options-list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -33,12 +24,13 @@ div.Header > div.header-options-container > ul.header-option-list {
   list-style: none;
 }
 
-div.Header > div.header-options-container > ul.header-option-list > li.header-list {
+span.header-options-container > ul.header-options-list > li.header-option {
   margin-left: 1.2em;
+  color: rgba(255, 255, 255, 0.65);
+  cursor: pointer;
 }
 
-div.Header > div.header-options-container > ul.header-option-list > li.header-list:hover {
-  color: gray;
-  cursor: pointer;
+span.header-options-container > ul.header-options-list > li.header-option:hover {
+  color: white;
 }
 /*# sourceMappingURL=style.css.map */
