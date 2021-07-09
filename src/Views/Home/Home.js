@@ -68,7 +68,7 @@ export default function Home() {
               </h3>
             </span>
             <div className="org-logo-container">
-              Images will here
+              Images will be here
             </div>
           </div>
 
@@ -124,7 +124,6 @@ export default function Home() {
           </div>
         </div>
       </div>
-
     </div>
   )
 }

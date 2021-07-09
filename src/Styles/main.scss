@@ -83,3 +83,7 @@ button.outline-button {
     background-color: rgba($color: #ffffff, $alpha: 0.125);
   }
 }
+
+input:focus {
+  outline: none !important;
+}

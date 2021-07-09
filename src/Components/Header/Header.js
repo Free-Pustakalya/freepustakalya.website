@@ -1,5 +1,5 @@
 import React from 'react';
-import { HashRouter } from 'react-router-dom';
+import { HashRouter, Link } from 'react-router-dom';
 import './style.css';
 
 export default class Header extends React.Component {
@@ -13,10 +13,14 @@ export default class Header extends React.Component {
           <span className="header-options-container">
             <ul className="header-options-list">
               <li className="header-option">
-                Home
+                <Link to="/">
+                  Home
+                </Link>
               </li>
               <li className="header-option">
-                About Us
+                <Link to="/about">
+                  About Us
+                </Link>
               </li>
               <li className="header-option">
                 Events

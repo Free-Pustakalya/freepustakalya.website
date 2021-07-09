@@ -85,4 +85,8 @@ button.outline-button {
 button.outline-button:hover {
   background-color: rgba(255, 255, 255, 0.125);
 }
+
+input:focus {
+  outline: none !important;
+}
 /*# sourceMappingURL=main.css.map */

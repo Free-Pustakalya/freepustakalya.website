@@ -33,4 +33,9 @@ span.header-options-container > ul.header-options-list > li.header-option {
 span.header-options-container > ul.header-options-list > li.header-option:hover {
   color: white;
 }
+
+li.header-option > * {
+  color: inherit;
+  text-decoration: none;
+}
 /*# sourceMappingURL=style.css.map */

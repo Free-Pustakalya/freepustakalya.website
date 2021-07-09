@@ -23,10 +23,15 @@ span.header-options-container {
       margin-left: 1.2em;
       color: rgba($color: (#ffffff), $alpha: 0.650);
       cursor: pointer;
-      
+
       &:hover {
         color: white;
       }
     }
   }
+}
+
+li.header-option > * {
+  color: inherit;
+  text-decoration: none;
 }

@@ -1,0 +1,26 @@
+
+div.Footer {
+  margin-top: 5.6em;
+  background-color: white;
+}
+
+ul.links-container-list {
+  margin-top: 1.2em;
+}
+
+li.links-item {
+  > * {
+    text-decoration: none;
+    color: black;
+
+    &:hover {
+      border-bottom: 0.3px solid black;
+    }
+
+  }
+}
+
+div.links-container-footer > span  > b > * {
+  color: inherit;
+  text-decoration: none;
+}
