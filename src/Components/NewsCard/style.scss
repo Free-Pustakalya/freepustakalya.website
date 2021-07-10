@@ -1,0 +1,36 @@
+
+div.NewsCard {
+  width: 340px;
+  overflow: hidden;
+  border-radius: 6px;
+  border: 0.6px solid white;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 1.4em;
+
+  transition: all 0.2s ease-in-out;
+
+  &:hover {
+    background-color: rgba($color: #ffffff, $alpha: 0.125);
+  }
+
+  > img.news-card-image {
+    width: 100%;
+    border: 0.6px solid white;
+  }
+
+  > div.news-card-body {
+    padding: 8px;
+
+    > h3 {
+      color: white;
+      font-size: 22px;
+    }
+
+    > p {
+      color: white;
+      text-align: justify;
+      margin-bottom: 0.6em;
+    }
+  }
+}

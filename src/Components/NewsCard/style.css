@@ -1,0 +1,36 @@
+div.NewsCard {
+  width: 340px;
+  overflow: hidden;
+  border-radius: 6px;
+  border: 0.6px solid white;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 1.4em;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+div.NewsCard:hover {
+  background-color: rgba(255, 255, 255, 0.125);
+}
+
+div.NewsCard > img.news-card-image {
+  width: 100%;
+  border: 0.6px solid white;
+}
+
+div.NewsCard > div.news-card-body {
+  padding: 8px;
+}
+
+div.NewsCard > div.news-card-body > h3 {
+  color: white;
+  font-size: 22px;
+}
+
+div.NewsCard > div.news-card-body > p {
+  color: white;
+  text-align: justify;
+  margin-bottom: 0.6em;
+}
+/*# sourceMappingURL=style.css.map */

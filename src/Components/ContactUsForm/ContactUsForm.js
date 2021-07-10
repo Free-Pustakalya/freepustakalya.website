@@ -10,7 +10,7 @@ export default function ContactForm() {
       marginLeft: 'auto',
       textAlign: 'center',
       fontSize: '26px',
-      color: 'white'
+      color: 'black'
     }}>Thanks for joining!</p>;
   }
   return (
